@@ -1,0 +1,1 @@
+find . -type f -name '*sh'  | sort -r | xargs -I {} basename {} .sh | cut -d '/' -f 2
